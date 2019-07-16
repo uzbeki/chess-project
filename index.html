@@ -1,0 +1,365 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>How to Play Chess</title>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<link href="Styles/color%20and%20dropdown%20menu.css" rel="stylesheet" type="text/css">
+<link href="Styles/pictures.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.shadow {
+	-moz-box-shadow: inset 2px 2px 10px #000;
+	-webkit-box-shadow: inset 2px 2px 10px #000;
+	box-shadow: inset 2px 2px 10px #000;
+	width:895px;
+	padding:5px;
+}
+.auto-style1 {
+	background-color: #000000;
+}
+.auto-style2 {
+	background-color: #FFFFFF;
+}
+.auto-style3 {
+	text-align: center;
+}
+.auto-style4 {
+	border-collapse: collapse;
+}
+</style>
+</head>
+
+<body>
+
+
+	<header id="beki" role="banner">
+		<nav role="navigation">
+			<ul>
+				<li><a href="index.html">Home Page</a></li>
+				<li><a href="Food%20Waste.html">Food Waste in Japan</a></li>
+				<li><a href="about_pagehtml.html">About</a></li>
+				<li class="active" style="float: right"><a id="contactme" href="#">Contact me</a></li>
+			</ul>
+		</nav>
+	</header>
+<div class="shadow">	
+		<center><section class="menubar" title="Table of contents">
+			<ul>
+				<li>
+					<a href="#history">History of Chess</a></li>
+				<li>
+					<a href="#goal">The Goal of Chess</a></li>
+				<li>
+					<a href="#start">Starting a Game</a></li>
+				<li class="dropdown">
+					<a class="dropbtn" href="#figure">How the Pieces 
+				Move</a>
+				<div class="dropdown-content">
+					<a href="#king">The King</a> <a href="#queen">The Queen</a>
+					<a href="#rook">The Rook</a> <a href="#bishop">The Bishop</a>
+					<a href="#knight">The Knight</a> <a href="#pawn">The Pawn</a>
+				</div>
+				</li>
+			</ul>
+		</section></center>
+		<br>
+		<div class="content" class="shadow">
+			<article class="overview">
+				<h1 id="title" style="font-size:40px; font-family:Georgia;">Let's learn how to play chess!</h1>
+				<h2 id="history"><b>History of Chess</b></h2>
+				<p>The origins of chess are not exactly clear, though most believe 
+				it evolved from earlier chess-like games played in India almost 
+				two thousand years ago.The game of chess we know today has been 
+				around since the 15th century where it became popular in Europe.</p>
+				<h2 id="goal"><b>The Goal of Chess</b> </h2>
+				<p>Chess is a game played between two opponents on opposite sides 
+				of a board containing 64 squares of alternating colors. Each player 
+				has 16 pieces: 1 king, 1 queen, 2 rooks, 2 bishops, 2 knights, and 
+				8 pawns. The goal of the game is to checkmate the other king. Checkmate 
+				happens when the king is in a position to be captured (in check) 
+				and cannot escape from capture.</p>
+				<img id="chesstable"  src="Images/chessboard222222222222222.png" alt="Chess board example" height="327">
+				<table class="auto-style4" title="Chess Board Table">
+					<tr>
+						<td class="auto-style1" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style2" style="height: 37px"></td>
+						<td class="auto-style1" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style2" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style1" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style2" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style1" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style2" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style4" style="width: 37px; height: 37px;">
+						8</td>
+					</tr>
+					<tr>
+						<td class="auto-style2" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style1" style="height: 37px"></td>
+						<td class="auto-style2" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style1" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style2" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style1" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style2" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style1" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style4" style="width: 37px; height: 37px;">
+						7</td>
+					</tr>
+					<tr>
+						<td class="auto-style1" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style2" style="height: 37px"></td>
+						<td class="auto-style1" style="height: 37px; width: 37px;">
+						</td>
+						<td class="auto-style2" style="height: 37px; width: 37px;">
+						</td>
+						<td class="auto-style1" style="height: 37px; width: 37px;">
+						</td>
+						<td class="auto-style2" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style1" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style2" style="height: 37px; width: 37px;">
+						</td>
+						<td class="auto-style4" style="height: 37px; width: 37px;">
+						6</td>
+					</tr>
+					<tr>
+						<td class="auto-style2" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style1" style="height: 37px"></td>
+						<td class="auto-style2" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style1" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style2" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style1" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style2" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style1" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style4" style="width: 37px; height: 37px;">
+						5</td>
+					</tr>
+					<tr>
+						<td class="auto-style1" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style2" style="height: 37px"></td>
+						<td class="auto-style1" style="height: 37px; width: 37px;">
+						</td>
+						<td class="auto-style2" style="height: 37px; width: 37px;">
+						</td>
+						<td class="auto-style1" style="height: 37px; width: 37px;">
+						</td>
+						<td class="auto-style2" style="height: 37px; width: 37px;">
+						</td>
+						<td class="auto-style1" style="height: 37px; width: 37px;">
+						</td>
+						<td class="auto-style2" style="height: 37px; width: 37px;">
+						</td>
+						<td class="auto-style4" style="height: 37px; width: 37px;">
+						4</td>
+					</tr>
+					<tr>
+						<td class="auto-style2" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style1" style="width: 37px"></td>
+						<td class="auto-style2" style="width: 37px"></td>
+						<td class="auto-style1" style="width: 37px"></td>
+						<td class="auto-style2" style="width: 37px"></td>
+						<td class="auto-style1" style="width: 37px"></td>
+						<td class="auto-style2" style="width: 37px"></td>
+						<td class="auto-style1" style="width: 37px; height: 37px">
+						</td>
+						<td class="auto-style4" style="width: 37px; height: 37px">
+						3</td>
+					</tr>
+					<tr>
+						<td class="auto-style1" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style2" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style1" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style2" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style1" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style2" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style1" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style2" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style4" style="width: 37px; height: 37px;">
+						2</td>
+					</tr>
+					<tr>
+						<td class="auto-style2" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style1" style="height: 37px"></td>
+						<td class="auto-style2" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style1" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style2" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style1" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style2" style="width: 37px; height: 37px;">
+						</td>
+						<td class="auto-style1" style="height: 37px; width: 37px">
+						</td>
+						<td class="auto-style4" style="width: 37px; height: 37px;">
+						1</td>
+					</tr>
+					<tr>
+						<td class="auto-style3" style="width: 37px">a</td>
+						<td class="auto-style3" style="width: 37px">b</td>
+						<td class="auto-style3" style="width: 37px">c</td>
+						<td class="auto-style3" style="width: 37px">d</td>
+						<td class="auto-style3" style="width: 37px">e</td>
+						<td class="auto-style3" style="width: 37px">f</td>
+						<td class="auto-style3" style="width: 37px">g</td>
+						<td class="auto-style3" style="width: 37px">h</td>
+					</tr>
+				</table>
+				<h2 id="start"><b>Starting a Game</b></h2>
+				<p>At the beginning of the game the chessboard is laid out so that 
+				each player has the white (or light) color square in the bottom 
+				right-hand side. The chess pieces are then arranged the same way 
+				each time. The second row (or rank) is filled with pawns. The rooks 
+				go in the corners, then the knights next to them, followed by the 
+				bishops, and finally the queen, who always goes on her own matching 
+				color (white queen on white, black queen on black), and the king 
+				on the remaining square. The player with the white pieces always 
+				moves first. Therefore, players generally decide who will get to 
+				be white by chance or luck such as flipping a coin or having one 
+				player guess the color of the hidden pawn in the other player's 
+				hand. White then makes a move, followed by black, then white again, 
+				then black and so on until the end of the game.</p>
+				<h2><b>How the Pieces Move</b></h2>
+				<p>Each of the 6 different kinds of pieces moves differently. Pieces 
+				cannot move through other pieces (though the knight can jump over 
+				other pieces), and can never move onto a square with one of their 
+				own pieces. However, they can be moved to take the place of an opponent's 
+				piece which is then captured. Pieces are generally moved into positions 
+				where they can capture other pieces (by landing on their square 
+				and then replacing them), defend their own pieces in case of capture, 
+				or control important squares in the game.</p>
+				<h3 id="king" class="figure">The King</h3>
+				<p><img alt="The King" src="Images/King.png"> The king is the most 
+				important piece, but is one of the weakest. The king can only move 
+				one square in any direction - up, down, to the sides, and diagonally. 
+				The king may never move himself into <strong>check</strong> (where 
+				he could be captured).</p>
+				<h3 id="queen" class="figure">The Queen</h3>
+				<p><img alt="the Queen" src="Images/queen.png">The queen is the 
+				most powerful piece. She can move in any one straight direction 
+				- forward, backward, sideways, or diagonally - as far as possible 
+				as long as she does not move through any of her own pieces. And, 
+				like with all pieces, if the queen captures an opponent's piece 
+				her move is over. Click through the diagram below to see how the 
+				queens move. Notice how the white queen captures the black queen 
+				and then the black king is forced to move. </p>
+				<h3 id="rook" class="figure">The Rook</h3>
+				<p><img alt="the Rook" src="Images/roolk.png">The rook may move 
+				as far as it wants, but only forward, backward, and to the sides. 
+				The rooks are particularly powerful pieces when they are protecting 
+				each other and working together!</p>
+				<br>
+				<h3 id="bishop" class="figure">The Bishop</h3>
+				<p><img alt="the Bishop" src="Images/bishop.png">The bishop may 
+				move as far as it wants, but only diagonally. Each bishop starts 
+				on one color (light or dark) and must always stay on that color. 
+				Bishops work well together because they cover up each other’s weaknesses.</p>
+				<h3 id="knight" class="figure">The Knight</h3>
+				<p><img alt="the Knight" src="Images/knight.png">Knights move in 
+				a very different way from the other pieces – going two squares in 
+				one direction, and then one more move at a 90 degree angle, just 
+				like the shape of an “L”. Knights are also the only pieces that 
+				can move over other pieces.</p>
+				<h3 id="pawn" class="figure">The Pawn</h3>
+				<p><img alt="the Pawn" src="Images/pawn.png">Pawns are unusual because 
+				they move and capture in different ways: they move forward, but 
+				capture diagonally. Pawns can only move forward one square at a 
+				time, except for their very first move where they can move forward 
+				two squares. Pawns can only capture one square diagonally in front 
+				of them. They can never move or capture backwards. If there is another 
+				piece directly in front of a pawn he cannot move past or capture 
+				that piece.</p>
+			</article>
+		</div>
+		<div id="sidebar">
+			<h2>A brief explanation on Food Waste in Japan</h2>
+			<p>Every year, Japan produces about 400 million tons of industrial waste 
+			and about 50 million tons of household and general commercial waste. 
+			Of the household and general commercial waste, about 20 million tons 
+			consist of food waste. This is 6 times the weight of used-newspaper 
+			waste and 4 times that of discarded automobiles. Now, how much food 
+			waste is being recycled? For food waste from the "processing and manufacturing" 
+			stage, 48 percent is being recycled. Examples of this include feeding 
+			pigs fresh bean curd pressings that are byproducts after making tofu. 
+			On the other hand, most food waste from the "distribution" stage is 
+			not recycled. Examples include unsold food at supermarkets and lunch 
+			boxes and hamburger meat that have passed the expiration date at convenience 
+			stores. This is mostly incinerated and sent to landfills. Under Japan's 
+			Basic Law for Establishing a Recycling-Based Society, which entered 
+			into force in January 2003, the Food Recycling Law took effect in June 
+			of the same year. This law's aims are to reduce the amount of food waste 
+			generated by food manufacturers and restaurants, and to promote the 
+			reuse of food waste such as by turning it into livestock feed and compost.<small><a href="Food%20Waste.html">(see 
+			more)</a></small></p>
+		</div>
+		
+		<div class="sidebar2">
+			<h2>About the page developer</h2>
+			<p>
+			<ul>
+			<li><strong>Name:</strong> Bekhruz Otaev</li> 
+			<li><strong>Country:</strong> Uzbekistan</li> 
+			<li><strong>University:</strong> APU</li> 
+			<li><strong>Major:</strong> APM</li> 
+			<li><strong>Student ID:</strong> 12216153</li>
+			<li title="Click here to send message."><strong>E-mail:</strong><a href="mailto:behruzbekotayev@gmail.com">behruzbekotayev@gmail.com</a></li> 
+			</ul>
+			For more details, click <small><a href="about_pagehtml.html">this page.</a></small></p>
+		</div>
+		
+	</div>
+	<footer role="contentinfo" style="height: 46px">
+		<address id="contact">
+			Designed by: <a href="https://www.facebook.com/behruzbek.otayev">
+			Bekhruz Otaev</a>
+		</address>
+		<p><small><b>Credits:</b> Content is taken from
+		<a href="https://www.chess.com/learn-how-to-play-chess#strategieshttps://www.chess.com/learn-how-to-play-chess#strategies">
+		Chess.com</a></small></p>
+		<address>
+		</address>
+	</footer>
+
+</body>
+
+</html>

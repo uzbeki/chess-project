@@ -1,0 +1,82 @@
+﻿img {
+	height: 60px;
+	width: 150px;
+
+}
+img#chesstable {
+	height: 360px;
+	width: 350px;
+	margin: 10px;
+}
+body {
+	height: auto;
+	margin: 0px;
+}
+section.menubar {
+	width: 600px;
+}
+.content {
+	width: 880px;
+	top: 90px;
+	left: 10px;
+	
+}
+div#sidebar {
+	height: auto;
+	width: 260px;
+	padding: 10px;
+	position: absolute;
+	top: 120px;
+	left: 970px;
+	background:#E1E1E1;
+	-moz-box-shadow: 2px 4px 10px #000;
+	-webkit-box-shadow:2px 4px 10px #000;
+	box-shadow: 2px 4px 10px #000;
+	border-radius: 15px 50px;
+}
+#sidebar:hover{
+	background-color:#99CCFF;
+}
+div.sidebar2 ul{
+	background:#E1E1E1;
+}
+div.sidebar2 li{
+	float:none;
+}
+
+div.sidebar2{
+	height: auto;
+	width: 260px;
+	padding: 10px;
+	position: absolute;
+	top: 1050px;
+	left: 970px;
+	background:#E1E1E1;
+	-moz-box-shadow: 2px 4px 10px #000;
+	-webkit-box-shadow:2px 4px 10px #000;
+	box-shadow: 2px 4px 10px #000;
+	border-radius: 15px 50px;
+}
+
+.sidebar2 li:hover{
+	background:#E1E1E1;
+}
+
+footer {
+	height: 40px;
+	position: relative;
+	left: 0px;
+}
+p {
+	margin-left:10px;
+	text-indent:1.5em;
+}
+footer p {
+	margin-top: 3px;
+}
+article p img {
+	float: left;
+}
+article p img#chesstable {
+	float: none;
+}
